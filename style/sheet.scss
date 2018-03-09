@@ -1,1 +1,32 @@
 img { width: 50px;}
+
+#fieldGraph {}
+
+.cssarrow {
+	position: relative;
+	background: #88b7d5;
+	border: 10px solid #c2e1f5;
+}
+.cssarrow:after,
+.cssarrow:before {
+	top: 100%;
+	right: 15px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.cssarrow:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-top-color: #88b7d5;
+	border-width: 43px;
+	margin-right: 0px;
+}
+.cssarrow:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-top-color: #c2e1f5;
+	border-width: 54px;
+	margin-right: -11px;
+}
