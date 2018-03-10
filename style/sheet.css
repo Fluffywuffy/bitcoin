@@ -1,6 +1,6 @@
 body {
   /* The image used */
-  background-image: url("Untitled.png");
+  background-image: url("SATURNsRing.gif");
   /* Full height */
   height: 100%;
   /* Center and scale the image nicely */
@@ -9,7 +9,7 @@ body {
   background-size: cover; }
 
 img {
-  width: 50px; }
+  width: 200px; }
 
 .elem {
   position: relative;
@@ -25,20 +25,28 @@ img {
 
 .rocket {
   height: 0;
-  top: 220px;
+  top: 100px;
   /** this sets the start point from were the text move up **/
   overflow: hidden;
   transition: height 0.1s;
   /** sets the speed to how fast the background changes **/ }
 
 .axis:hover .move-up {
-  height: 9em;
+  height: 10em;
   /** this sets the height of the text move-up and down space **/
   transform: translate(0, -110px);
   /** this sets how big you want the feild for this text to move up you have to change all 4  **/
   -webkit-transform: translate(0, -110px);
   -o-transform: translate(0, -110px);
-  -moz-transform: translate(0, -110px); }
+  -moz-transform: translate(0, -110px);
+  background-image: url("bitcoin.jpg");
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-style: bold; }
 
 .object {
   position: absolute;
@@ -65,13 +73,6 @@ img {
 .block {
   top: 100px;
   position: relative; }
-
-.line {
-  border: 2px solid gray;
-  width: 100px;
-  height: 2px;
-  position: absolute;
-  left: 30%; }
 
 .elem:hover {
   background-color: #e5e5e5;

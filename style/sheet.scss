@@ -1,6 +1,6 @@
 body {
   /* The image used */
-  background-image: url("Untitled.png");
+  background-image: url("SATURNsRing.gif");
   /* Full height */
   height: 100%;
   /* Center and scale the image nicely */
@@ -8,10 +8,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover; }
 
-img { width: 50px;}
+img { width: 200px;}
 
  .elem {
-      
+
 	position: relative;
 	bottom: 0;
 	-webkit-transition: bottom 0.5s ease;
@@ -22,7 +22,7 @@ img { width: 50px;}
 }
 .elem:hover {
 	bottom: 28px;
-      
+
 }
 
 
@@ -30,23 +30,31 @@ img { width: 50px;}
 
 .rocket {
     height: 0;
-    top: 220px; /** this sets the start point from were the text move up **/
+    top: 100px; /** this sets the start point from were the text move up **/
     overflow: hidden;
     transition: height 0.1s; /** sets the speed to how fast the background changes **/
-  
+
 }
 
 .axis:hover .move-up {
-     height: 9em; /** this sets the height of the text move-up and down space **/
+     height: 10em; /** this sets the height of the text move-up and down space **/
     transform: translate(0,-110px); /** this sets how big you want the feild for this text to move up you have to change all 4  **/
     -webkit-transform: translate(0,-110px);
-    -o-transform: translate(0,-110px); 
+    -o-transform: translate(0,-110px);
     -moz-transform: translate(0,-110px);
-  
+    background-image: url("bitcoin.jpg");
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-style: bold;
+
 }
 
 .object {
-    
+
     position: absolute;
     transition: all 0.5s ease-in-out; /** this is how fast the text move up **/
     -webkit-transition: all 0.5s ease-in-out; /** Chrome & Safari **/
@@ -58,7 +66,7 @@ img { width: 50px;}
         left: 35% /** this aligns the image in the center **/
       }
 
-.gi-3x{ 
+.gi-3x{
         font-size: 2em; /** this is to change the size of the image  **/
         position: relative;
         left: 45%;
@@ -66,22 +74,18 @@ img { width: 50px;}
 
 .block { top: 100px; position: relative;}
 
-.line { 
-       border: 2px solid gray;
-       width: 100px;
-       height: 2px;
-       position: absolute; 
-       left: 30%;
+.line {
+
 }
 
- 
 
-.elem:hover { 
-    background-color: #e5e5e5; 
+
+.elem:hover {
+    background-color: #e5e5e5;
     height: 300px;
 }
 
-.text_center { 
-    position: relative; 
+.text_center {
+    position: relative;
     text-align: center;
 }
