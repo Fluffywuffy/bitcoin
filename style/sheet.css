@@ -1,32 +1,84 @@
+body {
+  /* The image used */
+  background-image: url("Untitled.png");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 img {
   width: 50px; }
 
-.cssarrow {
+.elem {
   position: relative;
-  background: #88b7d5;
-  border: 10px solid #c2e1f5; }
+  bottom: 0;
+  -webkit-transition: bottom 0.5s ease;
+  -moz-transition: bottom 0.5s ease;
+  -o-transition: bottom 0.5s ease;
+  transition: bottom 0.5s ease;
+  height: 200px; }
 
-.cssarrow:after,
-.cssarrow:before {
-  top: 100%;
-  right: 15px;
-  border: solid transparent;
-  content: " ";
+.elem:hover {
+  bottom: 28px; }
+
+.rocket {
   height: 0;
-  width: 0;
+  top: 220px;
+  /** this sets the start point from were the text move up **/
+  overflow: hidden;
+  transition: height 0.1s;
+  /** sets the speed to how fast the background changes **/ }
+
+.axis:hover .move-up {
+  height: 9em;
+  /** this sets the height of the text move-up and down space **/
+  transform: translate(0, -110px);
+  /** this sets how big you want the feild for this text to move up you have to change all 4  **/
+  -webkit-transform: translate(0, -110px);
+  -o-transform: translate(0, -110px);
+  -moz-transform: translate(0, -110px); }
+
+.object {
   position: absolute;
-  pointer-events: none; }
+  transition: all 0.5s ease-in-out;
+  /** this is how fast the text move up **/
+  -webkit-transition: all 0.5s ease-in-out;
+  /** Chrome & Safari **/
+  -moz-transition: all 0.5s ease-in-out;
+  /** Firefox **/
+  -o-transition: all 0.5s ease-in-out;
+  /** Opera **/ }
 
-.cssarrow:after {
-  border-color: rgba(136, 183, 213, 0);
-  border-top-color: #88b7d5;
-  border-width: 43px;
-  margin-right: 0px; }
+.home {
+  color: gold;
+  /** this changes the image color **/
+  left: 35%; }
 
-.cssarrow:before {
-  border-color: rgba(194, 225, 245, 0);
-  border-top-color: #c2e1f5;
-  border-width: 54px;
-  margin-right: -11px; }
+.gi-3x {
+  font-size: 2em;
+  /** this is to change the size of the image  **/
+  position: relative;
+  left: 45%; }
+
+.block {
+  top: 100px;
+  position: relative; }
+
+.line {
+  border: 2px solid gray;
+  width: 100px;
+  height: 2px;
+  position: absolute;
+  left: 30%; }
+
+.elem:hover {
+  background-color: #e5e5e5;
+  height: 300px; }
+
+.text_center {
+  position: relative;
+  text-align: center; }
 
 /*# sourceMappingURL=sheet.css.map */
