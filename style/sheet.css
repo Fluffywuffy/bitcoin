@@ -45,8 +45,11 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #fff;
-  font-style: bold; }
+  color: #00ff00;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 3%;
+  margin: 2%; }
 
 .object {
   position: absolute;
@@ -60,7 +63,7 @@ img {
   /** Opera **/ }
 
 .home {
-  color: gold;
+  color: #00ff00;
   /** this changes the image color **/
   left: 35%; }
 
@@ -74,6 +77,9 @@ img {
   top: 100px;
   position: relative; }
 
+.lead {
+  font-weight: bolder; }
+
 .elem:hover {
   background-color: #e5e5e5;
   height: 300px; }
@@ -81,5 +87,47 @@ img {
 .text_center {
   position: relative;
   text-align: center; }
+
+#pageLoadOne {
+  background-color: #000;
+  color: #00ff00;
+  text-align: center;
+  border: 2px solid #00ff00;
+  border-radius: 20px;
+  margin-top: 5%; }
+
+.progress-bar-striped {
+  background-color: #00ff00;
+  color: #00ff00; }
+
+#spacer {
+  min-height: 50%; }
+
+.panel-default {
+  background-color: #000000;
+  border: #000000;
+  color: #00ff00;
+  -webkit-box-shadow: 3px 3px 5px 6px #000;
+  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 3px 3px 5px 6px #000;
+  /* Firefox 3.5 - 3.6 */
+  box-shadow: 3px 3px 5px 6px #000;
+  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */ }
+
+.lead {
+  font-weight: bolder; }
+
+#footer {
+  background-color: #000;
+  color: #00ff00;
+  border: 2px solid #00ff00;
+  border-radius: 20px;
+  margin-top: 5%;
+  min-height: 100px; }
+
+#headerSection {
+  color: #00ff00;
+  font-weight: bolder;
+  font-family: cursive; }
 
 /*# sourceMappingURL=sheet.css.map */
