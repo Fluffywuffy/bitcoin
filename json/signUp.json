@@ -1,0 +1,7 @@
+["<div id='signAlign' class='panel panel-default'>","<h2>Create a account</h2><br />","<label>create a password<input type='password' placeholder='password' ></label><br />",
+    "<label>check password<input type='password' placeholder='password' ></label><br />",
+    "<label>First Name<input type='text' placeholder='first name'></label><br />",
+    " <label>last Name<input type='text' placeholder='last name'></label><br />",
+    " <label>E-Mail<input type='email' placeholder='e-mail'</label> </form><br />",
+    "<button> submit</button>"
+    ,"</div>"]

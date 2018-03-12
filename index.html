@@ -10,62 +10,11 @@
  <script type="text/javascript" src="javascript/bitcoinTwo.js"></script>
  <script type="text/javascript" src="javascript/About.js"></script>
   <script type="text/javascript" src="javascript/graph.js"></script>
+  <script src="javascript/signup.js" type="text/javascript"></script>
+  <script src="javascript/login.js" type="text/javascript"></script>
+  <script src="javascript/menuBar.js" type="text/javascript"></script>
   <script>
-  var imgList = new Array (
-    "anImation/0000.png",
-    "anImation/0001.png",
-    "anImation/0002.png",
-    "anImation/0003.png",
-    "anImation/0004.png",
-    "anImation/0005.png",
-    "anImation/0006.png",
-    "anImation/0007.png",
-    "anImation/0008.png",
-    "anImation/0009.png",
-    "anImation/0010.png",
-    "0011.png",
-    "0012.png",
-    "0013.png",
-    "0014.png",
-    "0015.png",
-    "0016.png",
-    "0017.png",
-    "0018.png",
-    "0019.png",
-    "0020.png",
-    "0021.png",
-    "0022.png",
-    "0023.png",
-    "0024.png",
-    "0025.png",
-    "0026.png",
-    "0027.png",
-    "0028.png",
-    "0029.png",
-    "0030.png",
-    "0031.png",
-    "0032.png",
-    "0033.png",
-    "0034.png",
-    "0035.png",
-  );
 
-            var frame = 0;
-            var spriteImage
-
-            function init() {
-              setInterval("animate()", 100);
-              spriteImage = document.getElementById("image");
-            }
-
-            function animate() {
-              frame += 1;
-              if (frame > imgList.length){
-                frame = 0;
-              }
-              spriteImage.src = imgList[frame];
-            }
-            </script>
 </head>
 <body onload="tim()">
 
@@ -106,6 +55,16 @@ xmlhttp.send();
 <div class="col-lg-4">
 <h1 id="headerSection"><b><i>BITCOIN WEBSITE</i></b></h1>
 </div>
+        <div class="col-lg-1">
+             <div id="signIn"><label> LOGIN NOW<br />
+            <a id="login" href="#bottom" class="onclick" onclick="login()">LOGIN</a></label></div>
+    </div>
+      <div class="col-lg-3" >
+          <div id="signIn"><label> REGISTER NOW<br />
+             
+                  <a id="newPage" href="#bottom" class="onclick" onclick="signup()">SIGN UP</a></label></div>
+    </div>
+    
 </div>
 </div>
 
@@ -113,7 +72,11 @@ xmlhttp.send();
 
 
                 <div class="col-lg-4">
+                   
              <div class="panel panel-default">
+                 <h2>  PROFITABLE
+INVESTMENTS
+IN BITCOIN</h2>
                <p><span onclick="tims()">number of trades</span>--
                   <span onclick="jr()">value</span>--
                   <span onclick="poBear()">price</span>--
@@ -262,6 +225,39 @@ xmlhttp.send();
 
   </div>
 </div>
+
+
+
+   <div class="block"    >
+ <div class="container"><!-- this allows you to change the back ground color -->
+      <div class="row ">
+        <div class="col-lg-3">
+
+        </div>
+           <div class="col-lg-3" id="MenuOne">
+             
+           </div>
+
+              <div class="col-sm-3">
+              
+           </div>
+</div>
+<div class="row">
+  <div class="col-lg-3">
+
+  </div>
+              <div class="col-sm-3">
+             
+           </div>
+
+              <div class="col-sm-3">
+             
+           </div><br />
+      </div>
+       </div>
+        </div>
+
+
         <!-- -------------------------- menu 2 row section -------------------------- -->
 <div class="container" id="pageLoadOne">
   <div class="col-lg-10">

@@ -1,6 +1,6 @@
 body {
   /* The image used */
-  background-image: url("SATURNsRing.gif");
+  background-image: url("star.jpg");
   /* Full height */
   height: 100%;
   /* Center and scale the image nicely */
@@ -19,10 +19,11 @@ img { width: 200px;}
 	-o-transition: bottom 0.5s ease;
 	transition: bottom 0.5s ease;
        height: 200px;
+       
 }
 .elem:hover {
 	bottom: 28px;
-
+      background-color: black;
 }
 
 
@@ -42,7 +43,7 @@ img { width: 200px;}
     -webkit-transform: translate(0,-110px);
     -o-transform: translate(0,-110px);
     -moz-transform: translate(0,-110px);
-    background-image: url("bitcoin.jpg");
+    background-image: url("star.jpg");
   height: 100%;
   /* Center and scale the image nicely */
   background-position: center;
@@ -52,7 +53,7 @@ img { width: 200px;}
   font-weight: bold;
   font-style: italic;
   margin-top: 3%;
-  margin: 2%;
+  margin: 5%;
 
 }
 
@@ -70,7 +71,7 @@ img { width: 200px;}
       }
 
 .gi-3x{
-        font-size: 2em; /** this is to change the size of the image  **/
+        font-size: 4em; /** this is to change the size of the image  **/
         position: relative;
         left: 45%;
         }
@@ -117,3 +118,13 @@ border: #000000; color: #00ff00;
 min-height: 100px;}
 
 #headerSection {color: #00ff00; font-weight: bolder; font-family: cursive;}
+
+#newPage { background-color: #00ff00; color: 000000; border: 2px solid silver; margin-top: 50%; padding: 2%;}
+
+#signIn { color: #00ff00;}
+
+#login {background-color: #00ff00; margin-top: 15%;  border: 2px solid silver; margin-top: 50%; padding: 2%;}
+
+.onclick {color: red;}
+
+#signAlign {align-content:flex-end;}
