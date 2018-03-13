@@ -24,6 +24,9 @@ img { width: 200px;}
 .elem:hover {
 	bottom: 28px;
       background-color: black;
+      border: 2px solid black;
+      border-radius: 20px;
+      box-shadow: 5px 5px 5px #000;
 }
 
 
@@ -33,7 +36,7 @@ img { width: 200px;}
     height: 0;
     top: 100px; /** this sets the start point from were the text move up **/
     overflow: hidden;
-    transition: height 0.1s; /** sets the speed to how fast the background changes **/
+    transition: height 0.5s; /** sets the speed to how fast the background changes **/
 
 }
 
@@ -54,7 +57,10 @@ img { width: 200px;}
   font-style: italic;
   margin-top: 3%;
   margin: 5%;
-
+ border: 2px solid black;
+ border-radius: 20px;
+ padding: 2%;
+ box-shadow: 5px 5px 5px #000;
 }
 
 .object {
@@ -117,13 +123,13 @@ border: #000000; color: #00ff00;
 #footer { background-color: #000; color: #00ff00; border: 2px solid #00ff00; border-radius: 20px; margin-top: 5%;
 min-height: 100px;}
 
-#headerSection {color: #00ff00; font-weight: bolder; font-family: cursive;}
+#headerSection {color: #00ff00; font-weight: 20px; font-family: cursive; text-shadow: 5px 5xp 5xp #000;}
 
-#newPage { background-color: #00ff00; color: 000000; border: 2px solid silver; margin-top: 50%; padding: 2%;}
+#newPage { background-color: #00ff00; color: 000000; border: 2px solid silver; margin-top: 50%; padding: 2%;  border-radius: 5px; box-shadow: 5px 5px 5px #000;}
 
 #signIn { color: #00ff00;}
 
-#login {background-color: #00ff00; margin-top: 15%;  border: 2px solid silver; margin-top: 50%; padding: 2%;}
+#login {background-color: #00ff00; margin-top: 15%;  border: 2px solid silver; margin-top: 50%; padding: 5%; border-radius: 5px; box-shadow: 5px 5px 5px #000;}
 
 .onclick {color: red;}
 
