@@ -1,11 +1,15 @@
-["  <div class='elem' ><section  class='axis' ><span class='glyphicon glyphicon-bitcoin gi-3x home'></span><br /><!-- this is the glyphicon in bootstrap with underscore the gi-3x is for the size of the image",
+["WELCOME TO THE LOGIN SECTION INJOY YOUR SELF",
+  "  <div class='elem' ><section  class='axis' ><span class='glyphicon glyphicon-bitcoin gi-3x home'></span><br /><!-- this is the glyphicon in bootstrap with underscore the gi-3x is for the size of the image",
                  " the home in this class sets the color and were it lands -->",
          " <a href='main.html'><p class='text_center'>timmy's info</p>",
                  " <span class='line'></span></a>",
-                 " <p class='object rocket move-up'><i><b>this is about your site we can add anything hear",
-                 " <a href='#bottom' class='onclick' onclick='about()'> Read More--></a></b></i></p></section></div>"]
-      
-              
-
-            
-      
+                 " <p class='object rocket move-up'><i><b>WELCOME Tim</br> this is the secure area it's your info about your site ",
+                 " <a href='#bottom' class='onclick' onclick='customer()'> Read More--></a></b></i></p></section></div>",
+               "<!-- this is the second menu -->",
+               "  <div class='elem' ><section  class='axis' ><span class='glyphicon glyphicon-phone-alt gi-3x home'></span><br /><!-- this is the glyphicon in bootstrap with underscore the gi-3x is for the size of the image",
+                              " the home in this class sets the color and were it lands -->",
+                      " <a href='main.html'><p class='text_center'>chat with computer</p>",
+                              " <span class='line'></span></a>",
+                              " <p class='object rocket move-up'><i><b>this is about your site we can add anything hear",
+                              " <a href='#bottom' class='onclick' onclick='chat()'> Read More--></a></b></i></p></section></div>"
+                            ]

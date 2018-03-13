@@ -1,0 +1,4 @@
+["<div id='signAlign' class='panel panel-default'>","<h2>Chat with computer</h2><br />","<br />",
+    "<label>user<input class='black'  id='mychat' type='text' placeholder='user Name'></label><br />",
+    "<button class='black' onclick='chatter()'> submit</button>"
+    ,"</div>"]
