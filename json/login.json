@@ -1,4 +1,4 @@
-["<div id='signAlign' class='panel panel-default'>","<h2>Create a account</h2><br />","<label>create a password<input type='password' placeholder='password' ></label><br />",
-    "<label>User Name<input  id='myInput' type='text' placeholder='user Name'></label><br />",
-    "<button onclick='loginpage()'> submit</button>"
+["<div id='signAlign' class='panel panel-default'>","<h2>Create a account</h2><br />","<label>create a password<input class='black' type='password' placeholder='password' ></label><br />",
+    "<label>User Name<input class='black'  id='myInput' type='text' placeholder='user Name'></label><br />",
+    "<button class='black' onclick='loginpage()'> submit</button>"
     ,"</div>"]

@@ -1,4 +1,4 @@
-function login() { 
+function login() {
 var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
 if (this.readyState == 4 && this.status == 200) {
@@ -16,19 +16,18 @@ xmlhttp.send();
 function loginpage() {
     var letter = document.getElementById("myInput").value;
     var text;
-    if (letter === "c") {
+    if (letter === "tim") {
         text = "<div onclick='menuBar()'>welcome timmy how are you would you like to veiw you info plase click me</div>";
-         
+
 
 
     // If the letter is "b" or "d"
     } else if (letter === "b" || letter === "d") {
         text = "Close, but not close enough.";
-        
+
     // If the letter is anything else
     } else {
         text = "Waaay off.. Please stay were you are at we will send some one to get you in a matare of seconds";
     }
     document.getElementById("pageOne").innerHTML = text;
 }
-
